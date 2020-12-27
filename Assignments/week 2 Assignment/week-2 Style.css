@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 0;
+}
+h1{text-align: center;}
+.rescipe{
+    padding-left: 18px;
+    padding-right: 10px;
+}
+.row{
+    width: 100%;
+}
+.col-div{
+    border: solid 1px black;
+    background-color: gray;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: large;
+    width: 90%;
+    height: 200px;
+    overflow: hidden;
+    margin-left:auto;
+    margin-right: auto;
+}
+.div-title{
+    border: black solid 1px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+#title-box1{
+    background-color: burlywood;
+    width: 28%;
+    left: 72%;
+}
+#title-box2{
+    background-color: chocolate;
+    width: 38%;
+    left: 62%;
+}
+#title-box3{
+    background-color: cornflowerblue;
+    width: 45%;
+    left: 55%;
+}
+footer{
+    position: relative;
+    top: 50px;
+
+}
+/* ****For Large Devices onlly**** */
+@media (min-width: 992px){
+    .col-lg-4{
+        margin-left:1%;
+        float: left;
+        width: 32%
+    }
+
+}
+
+/* ****For Medium Devices onlly**** */
+@media (min-width: 768px) and (max-width: 991px){
+        .col-md-6, .col-md-12{
+            float: left;
+        }
+        .col-md-6{
+            margin-left: .5%;
+            margin-right: .5%;
+            width: 49%;
+        }
+        .col-md-12{
+            width: 100%;
+        }
+}
